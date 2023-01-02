@@ -23,7 +23,7 @@ app.use(express.json()) //allows passing json from frontend to backend
 //dummy root route
 app.get('/', async (req, res) => {
     res.status(200).send({
-        message: 'Hello from Avina',
+        message: 'Hello from Codex',
     })
 })
 
